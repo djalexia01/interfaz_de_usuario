@@ -89,11 +89,23 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BIENVENIDA.Designer.vb">
+      <DependentUpon>BIENVENIDA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BIENVENIDA.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INGRESO.Designer.vb">
+      <DependentUpon>INGRESO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="INGRESO.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -119,8 +131,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="BIENVENIDA.resx">
+      <DependentUpon>BIENVENIDA.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INGRESO.resx">
+      <DependentUpon>INGRESO.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -144,6 +162,60 @@
     </None>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transparent-hd-white-male-user-profile-icon-11637133256qticy7lqml.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-password-strength-computer-security-password-policy-managed-security-service-procurement-icon-blue-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-password-strength-computer-security-password-policy-managed-security-service-procurement-icon-blue-logo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spanishmexico-valorant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff087c3a091148349d2983d33c461099.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-675916976-170667a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instagram-recuperación-cuenta-1080x675.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-computer-icons-management-password-key-system-administrator-key-logo-monochrome-computer-program.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transparent-hd-white-male-user-profile-icon-11637133256qticy7lqml1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f1280x720-2366_134041_5050.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x-ray-1704855_1280.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\53-534754_equipamiento-de-rayos-x-asistencia-tecnica-profesional-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\senal-de-evacuacion-flecha-izquierda-clase-b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x-ray-1704855_12801.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f1280x720-2366_134041_50501.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\de672573-3452-46de-839e-da7114759d62.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
